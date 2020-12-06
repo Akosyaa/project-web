@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALK TO ME IN KOREAN</title>
+    <link rel="stylesheet" href="regstyle.css">
+    <link rel="stylesheet" href="regjs.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+       <div class="header">
+               <img src="logo@2x-1.png" alt="" width="150px" height="70px" max width="200px">
+    
+                <div class="ss">
+                     <h4><button class="btn btn-outline-info">SIGN IN</button></h4>
+                     <h4><button class="btn btn-outline-info">SUPPORT</button></h4>
+          
+                </div> 
+        
+        
+               <p><button class="btn btn-link text-dark">Level Test</button></p>
+               <p><button class="btn btn-link text-dark">My Learning Center</button></p>
+               <p><button class="btn btn-link text-dark">Pricing</button></p>
+               <p><button class="btn btn-link text-dark">Courses</button></p>
+               <p><button class="btn btn-link text-dark">Bookstore</button></p>
+
+    
+       
+        
+        </div>
+     <div class="content">
+          <div class="logo">
+            <a href="main.html" title="main" id=""><h4><button class="btn btn-outline-light">BACK</button></h4></a>
+              <img src="logo@2x-1.png" alt="" width="300px" height="100px">
+          </div>
+
+           <div class="info">
+               <form action="/action_page.php" >
+               <p><strong>EMAIL:</strong></p>
+               <input type="text" name="email" value="">
+               <p><strong>PASSWORD:</strong></p>
+               <input type="password" name="password" value="" pattern="(?.=*\d)(?.=*[a-z])(?.=*[A-Z]).{8,}">
+               <p>enter password</p>
+               <input type="password" name="password" value="" pattern="(?.=*\d)(?.=*[a-z])(?.=*[A-Z]).{8,}">
+               <p>confirm password</p>
+               <p><strong>NAME:</strong></p>
+               <input type="text" name="name" value=""><br>
+               </form>
+
+                 <br>
+      
+      
+              </div>
+
+           <div class="info1">
+              <form action="/action_page.php" >
+                 <input type="checkbox" name="first" value="" >  I agree to the Terms and Conditions and Privacy Policy. (required) <br>
+                 <input type="checkbox" name="second" value="" > I'd like to receive newsletters about new products and services. (optional)  <br>
+             </form> 
+            
+             <a href="reg2.html"><p><button class="btn btn-outline-secondary">SIGN UP</button></p></a>
+             <p style="margin-left:220px; font-size:20px;"><b>OR</b></p>
+           </div>
+           <div class="end">
+              <p><button class="btn btn-link text-dark">SIGN IN WITH GOOGLE  </button></p>
+              <p><button class="btn btn-link text-dark">SIGN IN WITH FACEBOOK</button></p>
+           </div>
+           
+     </div>
+     <script>
+     document.GetElementByClass("btn btn-outline-secondary").addEventlistener("click", function() {
+         alert("DONE");    
+     });
+     </script>
+    
+</body>
+</html>    

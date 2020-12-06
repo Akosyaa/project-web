@@ -1,0 +1,171 @@
+.header img{
+    margin-left: 200px;
+    margin-top: 20px;   
+}
+
+.header h4{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+
+    color:rgb(255,200,200);
+    
+    height:20px;
+    width:60px;
+        
+}
+.header p{
+    display:flex;
+    flex-direction:row;
+    margin-right:80px;
+    margin-top:60px;
+
+}
+.header{
+    display:flex;
+    background-color:rgb(205, 197, 253);
+    background-size:cover;
+    
+    margin-top:-1px;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;   
+    
+}
+
+.ss{
+    
+    display:flex;
+    flex-direction:row;   
+}
+.header button{
+    font-size:20px;
+}
+.ss button{
+    font-size:20px;
+    padding-right:10px;
+}
+
+.p{
+    text-align: center;
+    padding:30px 0 0 0;
+    font-size: 40px;
+}
+.hr{
+    height:0px; 
+    width:500px; 
+    border-width:5px;
+    background-color:black; 
+    margin-bottom: 50px;
+}
+
+.tt{
+    display: flex;
+    flex-direction: row;
+}
+
+.mid{
+    text-align: center;
+    
+    background-color:rgb(200, 255, 255) ;
+    padding: 10px 0 10px 0;
+
+}
+.mid  button{
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+h5{
+    padding: 40px 0 0 200px;
+}
+.mid1, .mid8{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.mid1 img{
+    padding: 20px 0 0 100px;
+}
+.mid1 i{
+    width: 500px;
+    margin:50px 0 0 200px;
+    outline-style: inset;
+    height: 100px;
+    outline-color: skyblue;
+    padding: 10px 0 0 5px;
+    
+}
+h2{
+    padding:50px 0 0 100px;
+    width: 600px;
+}
+.mid2, .mid7 p{
+    width: 600px;
+    padding:30px 0 0  100px;
+}
+.mid2, .mid7{
+    margin-left: 100px;
+}
+.full{
+    display: flex;
+    flex-direction: row;
+}
+.q{
+    font-size: 30px;
+    margin-left: 500px;
+    color: royalblue;
+}
+.v{
+    margin:50px 0 0  550px;
+    
+}
+.mid3, .mid4, .mid5, .mid6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+hr{
+    height:0px; 
+    width:500px; 
+    border-width:5px;
+    background-color:black; 
+    margin-bottom: 50px;
+}
+.mid4, .mid6{
+    font-size: 20px;
+    color: rgb(167, 238, 109);
+}
+.mid9{
+    background-color: rgb(255, 250, 238);
+    padding: 50px 0 50px 0;
+}
+.tt a{
+    padding: 60px 50px 0 0 ;
+}
+
+.mid11{
+    margin:20px 0 0 150px;
+    color: beige;
+}
+.mid12{
+    margin:20px 0 0 300px;
+    color: beige;
+}
+.mid11 button{
+    font-size: 15px;
+    height: 2px;
+    
+}
+.mid12 button{
+    font-size: 15px;
+    height: 2px;
+}
+
+.mid10{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding-bottom: 50px;
+}
